@@ -1,0 +1,24 @@
+body{ 
+background-color: background-color: #ad29a4;
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+
+}
+.titre{
+   text-align: center;
+   color:wheat;
+   border: bold;
+
+}
+.devenir{
+    padding: 70px;
+    text-align: center;
+    color: rgb(134, 87, 0);
+    border: bold;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+
+}
+

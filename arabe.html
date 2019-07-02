@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="indix.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Jamais seul</title>
+</head>
+
+<body>
+    <header>
+        
+          <!--ma nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+             <a class="navbar-brand" href=""><img src="data:image/jpeg;base64,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" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">ترحيب <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#origine">من نحن</a>
+                  <a class="nav-item nav-link" href="#carte">لنا العمل</a>
+                  <a class="nav-item nav-link" href="#benevole">لالتحاق بنا</a>
+                  <a class="nav-item nav-link" href="#">ادعمنا</a>
+                  <a class="nav-item nav-link" href="#soutenir">تصل بنا</a>
+                  <a class="nav-item nav-link" href="#contact">اتصل بن</a>
+                  <a class="nav-item nav-link" href="index.html">اللغة الفرنسي</a>
+
+                  <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">blog</a>
+                </div>
+              </div>
+          </nav>
+          <h1>Engagés Brisons l'isolement</h1>  
+
+
+      </header>   
+                     
+                  <!--image slide-->
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+                      <img src="https://www.petitsfreresdespauvres.fr/media/860/download/canicule-2019-1024-2.jpg?v=1" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                      <img src="image/APARIEL.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                      <img src="image/CHAPS.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                      <img src="image/old.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                      <img src="image/DOS.png" class="d-block w-100" alt="...">
+              </div>
+              </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                      </a>
+                </div>
+
+       <!--partie qui nous sommes-->
+    <section id="origine" class="conaitre">
+           <div class="origine"><h2>عزلة كبار السن</h2></div>
+            <p><em> عزلة كبار السن </em></p>
+              <p>يجب أن يكون كل من شيوخنا قادرين على أن يعيش حياته على أكمل وجه مع الحفاظ على الرابطة اوصفائهلاجتماعية الضرورية لرفاهه .
+                                 تؤدي الإيقاعات الجديدة للحياة المعاصرة للأسف إلى إضعاف الروابط الأسرية والاجتماعية وإلى عدد متزايد من كبار السن المعزولين ، مما يؤدي إلى تفاقم الفقر من هذه الظاهرة.
+                                   التقرير اليوم ينذر بالخطر: في فرنسا ، يعاني شخص واحد من بين كل أربعة أشخاص من العزلة. من بين هؤلاء ، هناك 300000 في حالة "موت اجتم.</p>
+    </section>
+        <!--partie action-->
+    <section id="carte" class="container-fluid">
+       
+      <div class="card-deck">
+       <div class="card">
+       <div class="opa"><img src="image/hospice-1794418_1920.jpg" class="card-img-top" alt="..."></div> 
+       <div class="card-body">
+            <h5 class="card-title">e">حضور</h5>
+            <p class="card-text">
+              <p class="card-text">الظروف الحالية لتولي مسؤولية
+                                     حالات نهاية الحياة مثيرة للقلق: الشخص
+                                     من بين اثنين اليوم يموت في المستشفى ، في معظم الأحيان
+                                     في عزلة تامة ، تم تخصيص 700 سرير فقط
+                                     إلى الرعاية الملطفة بينما لا يقل عن 10000 شخص
+                                     يجب أن تستفيد ، مقدمي الرعاية ليست كافية
+                                     مدربين لدعم المرضى الذين انتهت أعمارهم ،
+                                     الرعاية المكيفة أمر نادر وقانون ليونيتي
+                                     على حقوق المرضى غير معروفة. إنه كذلك
+                                     يجب أن تكون قضية الصحة العامة وأذرع العمل
+                                     التصرف أيضا على العقليات التي لا تحب الشيخوخة ،
+                                    لا الموت.</p>
+             </p>
+            
+      </div>
+      </div>
+
+      <div class="card">
+      <div class="opa"><img src="image/hand-3952086_1920.jpg" class="card-img-top" alt="..."></div> 
+      <div class="card-body">
+            <h5 class="card-title">مشاركة كوب من الشا</h5>
+            <p class="card-text">لتقديم وجود هو خلق علاقات الثقة
+                             على المدى الطويل مع كبار السن في عزلة
+                             وعدم الاستقرار ، في مكان حياتهم في المدينة ، إلى البيئة الريفية النائية.
+                             هذه الزيارات المنزلية تسمح لكبار السن الضعفاء بالاستمرار
+                             للعيش في المنزل على الرغم من فقدانهم للحكم الذاتي ، للخروج من عزلتهم و
+                             لبناء أواصر الصداقة. للعثور على فرحة الحياة ، ببساطة.</p>
+      </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+      </div>
+
+      <div class="card">
+      <div class="opa"><img src="image/puzzling-4014283_1920.jpg" class="card-img-top" alt="..."></div> 
+      <div class="card-body">
+            <h5 class="card-title">تنظيم الأنشطة</h5>
+         
+            <p class="card-text">لمحاربة العزلة من شيوخنا
+                             إعادة إنشاء الرابط من خلال الأعمال الجماعية: احتفال بعيد ميلاد ،
+                             مشاركة وجبة ، والخروج لزيارة نصب تذكاري ، والذهاب إلى السينما ،
+                             على المشي والتحدث ...
+                             نقوم بتنظيم وتحريك العديد من الإجراءات لتحسين حياة كبار السن الذين يعانون من الشعور بالوحدة والعزلة: ورش العمل للتعبير الإبداعي والفني ، والنزهات الثقافية ، وأنشطة العافية ....</p>
+            </p>
+            
+      </div>
+      </div>
+      </div>
+    </section>
+    <!--partie benevole-->
+    <section class="benevole" id="benevole">
+              <h2>معا ، كسر العزلة</h2>
+              <p>هل تريد الانخراط في عمل محلي؟ </p>
+              <p> كن متطوعًا وانضم إلى أحد الفرق المحلية البالغ عددها 300 فريق. معا ، دعونا نعمل للحفاظ على الرابطة الاجتماعية التي هي ضرورية لرفاه كبار السن لدينا.<p> </p>
+            </p>
+            <p>Vous souhaitez vous engager dans une action de proximité ?
+                Devenez bénévole et rejoignez l’une des 300 équipes locales Petits Frères des Pauvres. Ensemble, agissons pour maintenir le lien social indispensable au bien-être de nos aînés.</p>
+        <div class="benevolat"><button><a href="benevole.html">Formulaire</a></button></div>
+      </section>
+            <!--Partie don-->
+    <section  id="soutenir" class="container-fluid">
+
+          <div class="agir1">
+             <h2>Nous Soutenir</h2>
+             <p>كرمك هو القوة الدافعة لعملنا. بفضل دعمكم ، تسمح لنا بالخروج من عزلتهم وفقرهم وأحيانًا عن الشارع ، أولئك الذين يتركهم مجتمعنا على جانب الطريق.</p>
+            </p>
+           </div>
+
+        <div class="row">
+        <div class="col-sm-6">
+        <div class="card">
+        <div class="card-body">
+              <h5 class="card-title">un paquet de café ou the</h5>
+              <p class="card-text">Votre don ne vous
+                          coûte que 1€ après
+                          réduction fiscale*.</p>
+               <a href="" class="btn btn-primary">Faite un Don</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="card">
+        <div class="card-body">
+              <h5 class="card-title">une carte postale</h5>
+              <p class="card-text">Votre don ne vous
+                  coûte que 0€ après
+                  réduction fiscale*.</p>
+              <a href="" class="btn btn-primary">Faite un Don</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="card">
+        <div class="card-body">
+                <h5 class="card-title">Un sourire</h5>
+                <p class="card-text">Votre don ne vous toujours
+                    coûte que 0€ après
+                    réduction fiscale*.</p>
+                <a href="" class="btn btn-primary">Faite un Don</a>
+        </div>
+        </div>
+        </div>
+                <p>* Si vous êtes imposable, 75% de vos dons Pour <em>JAMAIS SEUL</em>sont déductibles de votre impôt sur le revenu dans la limite de 546 € (plafond 2019, tous dons à toutes œuvres confondus).</p>
+        </div>
+   </section>
+
+    <!--partie contact-->    
+    <section id="contact" class="mb-4">
+        <div class="container-fluid">
+        <div class="fond">
+                 <h2 class="h1-responsive font-weight-bold text-center my-4" id="white">CONTACTEZ-NOUS POUR TOUTE DEMANDE</h2>
+  </div>
+        <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+        <div class="row">
+
+        <div class="col-md-6">
+        <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Votre Nom</label>
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <div class="md-form mb-0">
+                    <input type="text" id="email" name="email" class="form-control">
+                    <label for="email" class="">Votre email</label>
+        </div>
+        </div>
+
+        </div>
+
+        <div class="row">
+        <div class="col-md-12">
+        <div class="md-form mb-0">
+                       <input type="text" id="subject" name="subject" class="form-control">
+                       <label for="subject" class="">Objet</label>
+        </div>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-12">
+
+        <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Votre message</label>
+         </div>
+         </div>
+         </div>
+              </form>
+
+         <div class="text-center text-md-left">
+                          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                          <p class="regle">Les informations recueillies à partir de ce formulaire font l’objet d’un traitement informatique destiné à traiter votre demande. Les destinataires des données sont les membres du service concerné par votre demande.
+                              Vous disposez, en nous écrivant, d'un droit d'accès, de rectification et de suppression des données vous concernant.</p>
+        </div>
+        <div class="status"></div>
+        </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>25 rue des gardes Paris 18, France</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 3647</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@ouiSncf.fr</p>
+              </li>
+          </ul>
+      </div>
+      </div>
+      </div>
+
+    </section>
+<!--Section: Contact v.2-->
+        
+   
+   <footer>
+    <div class="container-fluid">
+    <div class="row no-padding">
+    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5247.032430704783!2d2.348352198317817!3d48.88649847154311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x47e66e65fe5c1e79%3A0x63ba5cb5598319ff!2s25+Rue+des+Gardes%2C+75018+Paris!3m2!1d48.8864915!2d2.3527403!4m0!5e0!3m2!1sfr!2sfr!4v1561236610702!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+        <p>Horaire ouverture :</p>
+        <p> LUNDI-VENDREDI : 9h-17h</p> 
+        <p>SAMEDI : 9h-12h </p></div>
+    <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3">
+        
+        <a href="https://www.oui.sncf/"><img src="https://www.oui.sncf/sites/all/modules/custom_addons/vsct_feature_canvas/theme/dist/img/oui-sncf.svg" alt=""></a>
+      
+        <a href="https://plainecommune.fr/collecte/"><img src="https://www.europeservicesgroupe.fr/wp-content/uploads/2018/08/plaine-commune-logo.png" alt=""></a>
+      
+        <a href="https://wildcodeschool.fr/"><img src="https://wild-reims.fr/images/logo-rouge-fond-transparent.png" alt=""></a>
+      
+    </div>
+    </div>
+    </div> 
+  </footer>
+
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
