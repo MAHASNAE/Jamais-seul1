@@ -1,24 +1,36 @@
 body{ 
-background-color: background-color: #ad29a4;
-background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */;
+    background: linear-gradient(to right, #900000, white);
 
 }
 .titre{
    text-align: center;
-   color:wheat;
+   color: #140435;
    border: bold;
-
+   padding: 40px;
+   font-family: 'Merienda One', cursive;
 }
 .devenir{
-    padding: 70px;
+    padding: 80px;
     text-align: center;
-    color: rgb(134, 87, 0);
+    color:  #140435;
     border: bold;
+    background-color: rgba(189, 189, 189, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.devenir:hover {
+    background-color: #140435;
+    color: white;
 }
 
 p{
     font-family: 'Lato', sans-serif;
 
 }
+.btn .btn-primary{
+    color: rgb(48, 47, 47 0.5);
+    padding: 15px !important;
+}
+
 
