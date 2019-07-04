@@ -6,7 +6,7 @@ hc.reveal('h1' , {
 });
 const ha = ScrollReveal();
 ha.reveal('.titre', {
-    duration: 5000,
+    duration: 6000,
     reset: true,
 
 });

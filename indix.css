@@ -1,12 +1,30 @@
 body{
    background: white;
 }
+
+p {
+    color: #808080;
+    text-align: center;
+}
+
 h1{
     text-align: center;
     color:  #140435;
     margin-top:140px;
    font-family: 'Merienda One', cursive;
 }
+
+h5{
+    color: #900000;
+}
+/*logo*/
+.row img{
+   
+    width: 80px;
+    height: 80px;
+}
+
+/*ma nav bar*/
 header section.header_nav, .bg-light {
     background-color: #140435!important;
 }
@@ -16,6 +34,7 @@ header section.header_nav{
     top:0;
     z-index: 999;
 }
+
 .nav-link { color: #fff!important; }
 .nav-link:hover {
     color: #e22f2f!important;
@@ -31,15 +50,23 @@ header section.header_nav{
     height: 85px;
     width: 85px;
 }
+.navbar-toggler-icon{
+    color: #fff !important;
+    
+}
+/*partie slide*/
+
 .carousel-inner img{
     width: 80%;
     height: 550px;
 }
 
+/* je pense que il ne sert a rien mais je le garde*/
 .img-fluid{
     width: 95%;
     height: 650px;
 }
+/*qui nous sommes*/
 
 .conaitre{
     width: 80%;
@@ -49,6 +76,7 @@ header section.header_nav{
     margin: 3% auto;
     color:#900000;  
  } 
+ /*je sais pas a quoi correspond je verrai*/
 .conteners{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -58,42 +86,8 @@ header section.header_nav{
    align-items: center;
    padding: 1em;
 }
-.benevole{
-    padding: 5%;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    background: #900000;
-}
-.benevole h2{
-    color: white;
-    text-align: center;
-}
 
-.benevolat button{
-    border-radius:5px;
-    background-color: white;
-    padding: 4px;
-
-}
-/*je sais pas a qoui il corespond*/
-.but{
-    padding:10px;
-    margin: 15px;
-}
-.regle{
-    font-family: 'Lato', sans-serif;
-    font-size: 10px;
-    padding: 2em;
-}
-footer{
-    background-color: #1d1d1d;
-}
-.agir1 h2 {
-    text-align: center;
-    color: #F4A460;
-}
-
+/*partie action*/
 .opa{
     background-color:rgb(116, 46, 64);
 
@@ -108,27 +102,85 @@ footer{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+.card-body{
+    justify-content: center;
+     align-items: center!important;
+     text-align: center!important;
+ }
+ 
 .card-body:hover {
     background-color:#feefe1;
     
 }
+/*partie benevole*/
+.benevole{
+    padding: 5%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background: #900000;
+    
+}
+#benevole{
+    margin-top: 40px;
+}
+.benevole h2{
+    color: white;
+    text-align: center;
+}
+
+.benevolat button{
+    border-radius:5px;
+    background-color: white;
+    padding: 4px;
+
+}
+/*partie don*/
+#soutenir{
+    margin-top: 40px;
+}
+.agir1 h2 {
+    text-align: center;
+    color: #F4A460;
+}
+
+.but{
+    padding:10px;
+    margin: 15px;
+}
+/*contact*/
+
+.regle{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    padding: 2em;
+}
+#contact{
+    background-color:#900000;
+}
+#white {
+    text-align: center;
+    color: white;
+}
+
  .btn.btn-primary {
      border:none;
     border-radius: 5px;
     background-color: #140435!important;
     color: #fff !important;
 }
+
 .btn-primary:hover {
     background-color:#ffa951;
     border:none;
 }
-
+/*ma partie footer*/
+footer{
+    background-color: #1d1d1d;
+}
 iframe{
     width: 100%;
-    height: 200px;
-    
-    
-    
+    height: 200px;   
 }
 /* je dois mettre ailleur*/
 .partener img {
@@ -136,27 +188,5 @@ iframe{
     height: 60px;
     justify-content: space-between;
 }
-.row img{
-   
-    width: 80px;
-    height: 80px;
-}
-p {
-    color: #808080;
-    text-align: center;
-}
-#white {
-    text-align: center;
-    color: white;
-}
-#contact{
-    background-color:#900000;
-}
-h5{
-    color: #900000;
-}
-.card-body{
-   justify-content: center;
-    align-items: center!important;
-    text-align: center!important;
-}
+
+

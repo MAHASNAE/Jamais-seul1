@@ -1,36 +1,41 @@
-body{ 
+body {
     background: linear-gradient(to right, #900000, white);
 
 }
-.titre{
-   text-align: center;
-   color: #140435;
-   border: bold;
-   padding: 40px;
-   font-family: 'Merienda One', cursive;
+
+p {
+    font-family: 'Lato', sans-serif;
 }
-.devenir{
+
+/*le titre*/
+.titre {
+    text-align: center;
+    color: #140435;
+    border: bold;
+    padding: 40px;
+    font-family: 'Merienda One', cursive;
+}
+
+/*mon paragraphe*/
+.devenir {
     padding: 80px;
     text-align: center;
-    color:  #140435;
+    color: #140435;
     border: bold;
     background-color: rgba(189, 189, 189, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
 .devenir:hover {
     background-color: #140435;
     color: white;
-}
-
-p{
-    font-family: 'Lato', sans-serif;
 
 }
-.btn .btn-primary{
+
+/*button de mon formulaire*/
+.btn .btn-primary {
     color: rgb(48, 47, 47 0.5);
     padding: 15px !important;
 }
-
-
